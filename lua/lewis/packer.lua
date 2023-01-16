@@ -49,4 +49,6 @@ return require('packer').startup(function(use)
     {'rafamadriz/friendly-snippets'},
   }
 }
+ use("folke/zen-mode.nvim")
+  use("github/copilot.vim")
   end)
